@@ -1,0 +1,12 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+Body {
+    background-color: rgb(233, 219, 203);
+    font-family: cursive;
+}
+header{
+    background-color: black;
+    color: white;
+}
