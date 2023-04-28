@@ -1,3 +1,5 @@
+"use strict";
+
 let userName = prompt ("What is your name?")
 alert ("Welcome, " + userName)
 let vegas = prompt ("Has Drew Stroede ever lived in Las Vegas? (yes or no)").toLowerCase();

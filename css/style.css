@@ -1,12 +1,124 @@
+
 html {
     height: 100%;
     width: 100%;
 }
-Body {
+Body {   
+    font-family: 'bangers';
+    src: url(https://fonts.googleapis.com/css?family=Bangers);
+    font-weight: normal;
+    font-style: normal;
     background-color: rgb(233, 219, 203);
-    font-family: cursive;
+    
 }
-header{
-    background-color: black;
-    color: white;
+h1{
+        font-size: 4rem;
+      text-align: center;
+    height:auto;
+    line-height: 20vh;
+      color: #EEE1C6;
+      background: #00471B;
+      padding: 40px;
+      box-shadow:
+        inset #003c17 0 0 0 1px,
+        inset #052939 0 0 0 5px,  
+        inset #0077C0 0 0 0 10px, 
+        inset #46b59b 0 0 0 14px, 
+        inset #ffffff 0 0 0 18px, 
+        inset #003c17 0 0 0 22px;
+        /* inspiration from https://freefrontend.com/css-border-examples/*/
+         font-family: 'Niconne', cursive;
+      font-weight: 700;
+    text-shadow: 3px 3px 0px #0077C0, 
+                5px 5px 0px #052939, 
+                7px 7px 0px white, 
+                9px 9px 0px #017e31, 
+                11px 11px 0px #46b59b, 
+                13px 13px 0px #003c17, 
+                15px 15px 0px #003c17, 
+                17px 17px 0px #003c17, 
+                19px 19px 0px #003c17;
+}
+/* insipration from https://codepen.io/TajShireen/pen/abzmoRE */
+main {
+width: 90%;
+margin: auto;
+}
+.bio {
+    margin:25px;
+    padding:12px;
+    width:40%;
+    height:auto;
+    background:#fff;
+    border: solid black;
+    border-color: black;
+    /*make it look like a comic book*/
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 2% 92% 2%/4% 95% 6% 95%;
+    
+      }
+ .experience {
+    margin:25px;
+    padding:12px;
+    width:40%;
+    height:auto;
+    background:#fff;
+    border: solid black;
+    border-color: black;
+    border-width: 3px 3px 5px 5px;
+    border-radius:4% 95% 4% 95%/95% 4% 92% 3%;
+
+ }
+.goals {
+    margin:25px;
+    padding:12px;
+    width:40%;
+    height:auto;
+    background:#fff;
+    border: solid black;
+    border-color: black;
+    /*make it look like a comic book from https://codepen.io/mp/pen/kBEeKw*/
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+
+}
+.comicLeft {
+    transform: rotate(1deg);
+    margin:15px;
+    padding:0 5px;
+    float: left;
+    font-family: 'Bangers', cursive ;
+    font-size: 25px;
+    background-color: #ddd;
+    border:1px solid #222;
+    box-shadow:3px 3px 0 #222;
+}
+.comicRight {
+
+    transform: rotate(-1deg);
+    margin:15px;
+    padding:0 5px;
+    float: right;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    background-color:#ddd;
+    border: 1px solid #222;
+    box-shadow:3px 0 #222;
+}
+figure{
+    float:right;
+    width: 40%;
+    margin: auto;
+    padding:0px;
+}
+figure img{
+    height: Auto;
+    width: 80%;
+    margin: 5px;
+}
+article* {
+    display:inline-block;
+    vertical-align: top;
+    margin: auto;
+    padding:0px;
 }
