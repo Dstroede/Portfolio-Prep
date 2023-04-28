@@ -65,4 +65,4 @@ if (food == "yes") {
     console.log("I'm sorry, plz use yes or no. Salmon is his favorite!")
     alert  ("I'm sorry, plz use yes or no. Salmon is his favorite!");
 }
-    alert = ("Thanks for playing "+ userName+ " how about we learn a little more about Drew!")
+alert ("Thanks for playing "+ userName+ " how about we learn a little more about Drew!");
