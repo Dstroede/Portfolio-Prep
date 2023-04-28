@@ -115,6 +115,10 @@ figure img{
     height: Auto;
     width: 80%;
     margin: 5px;
+    border: solid black;
+    border-color: black;
+    border-width: 3px 3px 5px 5px;
+    border-radius:4% 95% 4% 95%/95% 4% 92% 3%;
 }
 article* {
     display:inline-block;
