@@ -84,7 +84,7 @@ margin: auto;
 }
 .comicLeft {
     transform: rotate(1deg);
-    margin:15px;
+    margin:5px 15px 15px 5px ;
     padding:0 5px;
     float: left;
     font-family: 'Bangers', cursive ;
@@ -96,7 +96,7 @@ margin: auto;
 .comicRight {
 
     transform: rotate(-1deg);
-    margin:15px;
+    margin:5px 5px 15px 15px;
     padding:0 5px;
     float: right;
     font-family: 'Bangers', cursive;
