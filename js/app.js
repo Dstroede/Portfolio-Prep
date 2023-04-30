@@ -65,22 +65,36 @@ if (food == "yes") {
     console.log("I'm sorry, plz use yes or no. Salmon is his favorite!")
     alert  ("I'm sorry, plz use yes or no. Salmon is his favorite!");
 }
-let webRanker = prompt ("guess a number between 1 & 10 ")
-const attempts= 4
-for (let i=0; i<attempts; i++)
-if (webRanker= 6)
-    alert("Whoaaa you must be psychic! You're right!")
-    else if(webRanker<6){
-    alert ("little higher!")
-}   else if(webRanker>6){
-    alert ("little lower")
+
+let guessNum = 6;
+let gotIt = false;
+let webRanker = prompt ("guess a number between 1 & 10 ");
+for (let i=1; i <= 4; i++){
+}   if (webRanker < 6){
+    prompt ("little higher!");
+}   else if (webRanker > 6 ){
+    prompt("little lower");
+}   else if (webRanker == guessNum){
+    alert("Whoaaa you must be psychic! You're right!");
+    gotIt = true;
 }
+if (!gotIt){
+    alert("Ran out of attempts! Sorry, it was 6!");
+}
+let team= "green bay";
+let correct= false;
 let favTeam= prompt("Guess what city my favorite NFL team resides!").toLowerCase();
-const tries=6
-for (let i=0; i<tries; i++)
-if (favTeam= "green bay")
-alert ("Yup! GO PACK GO!")
-    else if(favTeam != "green bay"){
-    alert ("Nope! Try again!")
-} 
+for (let i=1; i<=6; i++){
+    if(favTeam != team) { 
+    prompt ("Nope! Try again!");
+    }     
+    else if (favTeam == team){
+    alert ("Yup! GO PACK GO!");
+    correct= true;
+    break;
+}
+}
+if (!correct){
+alert("Ran out of attempts! Sorry, Go Pack Go!");
+}
 alert ("Thanks for playing "+ userName+ " how about we learn a little more about Drew!");
