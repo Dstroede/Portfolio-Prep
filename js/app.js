@@ -86,20 +86,20 @@ let qSix=0;
 let guessNum = 6;
 let gotIt= false;
 let webRanker = prompt ("guess a number between 1 & 10 ");
-for (let i=0; i <= 4; i++){
+for (let i=0; i < 3; i++){
    if (webRanker < 6){
     webRanker= prompt ("little higher!");
-}   if (webRanker > 6 ){
+}   else if (webRanker > 6 ){
     webRanker= prompt("little lower");
-}   if (webRanker == guessNum){
+}   else if (webRanker == guessNum){
     alert("Whoaaa you must be psychic! You're right!")
     qSix++
-    gotIt=true; 
+    gotIt= true; 
     break; 
 }
-    if (!gotIt){
+    if (!gotIt && i===2){
     alert("Ran out of attempts! Sorry, it was 6!");
-   
+    break;
 }
 }
 console.log (qSix)
@@ -108,19 +108,20 @@ let qSeven=0;
 let team= "green bay";
 let correct= false;
 let favTeam= prompt("Guess what city my favorite NFL team resides?").toLowerCase();
-for (let i=0; i<=6; i++){
+for (let i=0; i< 5; i++){
     if(favTeam != team) { 
     favTeam= prompt ("Nope! Try again!");
     }     
-    if (favTeam == team){
+    else if (favTeam == team){
     alert ("Yup! GO PACK GO!")
     qSeven++
-    correct=true;
+    correct= true;
     break;
-}
-}
-if (!correct){
-alert("Ran out of attempts! Sorry, Go Pack Go!");
+    }
+    if (!correct && i===4){
+    alert("Ran out of attempts! Sorry, Go Pack Go!");
+    break;
+    }
 }
 console.log(qSeven)
 
