@@ -5,7 +5,7 @@ html {
 }
 Body {   
     font-family: 'bangers';
-    src: url(https://fonts.googleapis.com/css?family=Bangers);
+    /*src: url(https://fonts.googleapis.com/css?family=Bangers); */
     font-weight: normal;
     font-style: normal;
     background-color: rgb(233, 219, 203);
