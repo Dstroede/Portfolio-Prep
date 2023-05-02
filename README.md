@@ -6,13 +6,15 @@ Code Fellows 201 Coding Project
 
 
 ## Build Status
+Pending...
 
 
 ## Tech/Framework Used
 
 
 ## Features
-
+Accessibility score 100
+![Accessibility Score](img/Accessibility%20score.png)
 
 ## How to use?
 
