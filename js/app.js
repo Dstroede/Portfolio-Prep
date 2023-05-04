@@ -58,21 +58,23 @@ function wisco() {
   console.log(qThree);
 }
 
-let qFour=0;
-let family = prompt ("Does Drew Stroede have 4 brothers?").toLowerCase();
-console.log(family)
-if (family == "yes") {
-    console.log("Not quite! Drew has 3 brothers and 1 sister")
+function bros() {
+  let qFour=0;
+  let family = prompt ("Does Drew Stroede have 4 brothers?").toLowerCase();
+  console.log(family);
+  if (family === "yes") {
+    console.log("Not quite! Drew has 3 brothers and 1 sister");
     alert("Not quite! Drew has 3 brothers and 1 sister");
-}else if (family == "no") {
-    console.log("Spot on! Drew has 3 brothers and 1 sister")
-    alert("Spot on! Drew has 3 brothers and 1 sister")
-    qFour++
-} else if (family != "yes" && family != "no"){
-    console.log("I'm sorry, plz use yes or no. He has 3 brothers and 1 sister")
+  }else if (family === "no") {
+    console.log("Spot on! Drew has 3 brothers and 1 sister");
+    alert("Spot on! Drew has 3 brothers and 1 sister");
+    qFour++;
+  } else if (family !== "yes" && family !== "no"){
+    console.log("I'm sorry, plz use yes or no. He has 3 brothers and 1 sister");
     alert  ("I'm sorry, plz use yes or no. He has 3 brothers and 1 sister");
+  }
+  console.log (qFour);
 }
-console.log (qFour)
 
 let qFive=0;
 let food = prompt ("Is Drew Stroede's favorite food is Salmon?").toLowerCase();
@@ -135,6 +137,7 @@ console.log(qSeven)
 
 lVegas();
 cBall();
+bros();
 
 let score= [qOne+qTwo+qThree+qFour+qFive+qSix+qSeven]
 console.log(score)
