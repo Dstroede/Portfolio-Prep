@@ -118,33 +118,36 @@ function numSelect() {
   console.log (qSix);
 }
 
-let qSeven=0;
-let team= "green bay";
-let correct= false;
-let favTeam= prompt("Guess what city my favorite NFL team resides?").toLowerCase();
-for (let i=0; i< 5; i++){
-    if(favTeam != team) { 
-    favTeam= prompt ("Nope! Try again!");
+function city() {
+  let qSeven=0;
+  let team= ["green bay", "las vegas", "houston"];
+  let correct= false;
+  let favTeam= prompt("Guess what city my favorite NFL team resides?").toLowerCase();
+  for (let i=0; i< 5; i++){
+    if(favTeam !== team) { 
+      favTeam= prompt ("Nope! Try again!");
     }     
-    else if (favTeam == team){
-    alert ("Yup! GO PACK GO!")
-    qSeven++
-    correct= true;
-    break;
+    else if (favTeam === team){
+      alert ("Yup!");
+      qSeven++;
+      correct= true;
+      break;
     }
     if (!correct && i===4){
-    alert("Ran out of attempts! Sorry, Go Pack Go!");
-    break;
+      alert("Ran out of attempts! Sorry, Go Pack Go!");
+      break;
     }
+  }
+  console.log(qSeven);
 }
-console.log(qSeven)
 
 lVegas();
 cBall();
 wisco();
 bros();
 din();
-numSelect ();
+numSelect();
+city();
 
 let score= [qOne+qTwo+qThree+qFour+qFive+qSix+qSeven]
 console.log(score)
