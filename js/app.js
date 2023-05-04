@@ -22,21 +22,24 @@ function lVegas() {
   console.log (qOne);
 }
 
-let qTwo=0;
-let football = prompt ("Has Drew Stroede played college basketball?").toLowerCase();
-    console.log(football)
-if (football == "yes") {
-    console.log ("Nah! Drew played college football as a defensive back!")
+function cBall() {
+  let qTwo=0;
+  let football = prompt ("Has Drew Stroede played college basketball?").toLowerCase();
+  console.log(football);
+  if (football === "yes") {
+    console.log ("Nah! Drew played college football as a defensive back!");
     alert("Nah! Drew played college football as a defensive back!");
-}else if (football == "no") {
-    console.log("You're right here but Drew did played college football as a defensive back!" )
-    alert("You're right here but Drew did played college football as a defensive back!")
-    qTwo++
-} else if (football != "yes" && football != "no"){
-    console.log("I'm sorry, plz use yes or no. Drew played colllege football instead!" )
+  }else if (football === "no") {
+    console.log("You're right here but Drew did played college football as a defensive back!" );
+    alert("You're right here but Drew did played college football as a defensive back!");
+    qTwo++;
+  } else if (football !== "yes" && football !== "no"){
+    console.log("I'm sorry, plz use yes or no. Drew played colllege football instead!" );
     alert ("I'm sorry, plz use yes or no. Drew played colllege football instead!");
+  }
+  console.log (qTwo);
 }
-console.log (qTwo)
+
 
 let qThree=0;
 let wisconsin = prompt ("Has Drew Stroede ever lived in Wisconsin").toLowerCase();
@@ -130,6 +133,7 @@ for (let i=0; i< 5; i++){
 console.log(qSeven)
 
 lVegas();
+cBall();
 
 let score= [qOne+qTwo+qThree+qFour+qFive+qSix+qSeven]
 console.log(score)
