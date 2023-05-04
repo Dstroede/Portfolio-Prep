@@ -40,22 +40,23 @@ function cBall() {
   console.log (qTwo);
 }
 
-
-let qThree=0;
-let wisconsin = prompt ("Has Drew Stroede ever lived in Wisconsin").toLowerCase();
-console.log(wisconsin)
-if (wisconsin == "yes") {
-    console.log("Yessir! Drew was born and raised in Wisconsin to a family of 7!")
-    alert("Yessir! Drew was born and raised in Wisconsin to a family of 7!")
-    qThree++
-}else if (wisconsin == "no") {
-    console.log("If you said no, then you'd be wrong! Drew was born and raised in Wisconsin to a family of 7!")
+function wisco() {
+  let qThree=0;
+  let wisconsin = prompt ("Has Drew Stroede ever lived in Wisconsin").toLowerCase();
+  console.log(wisconsin);
+  if (wisconsin === "yes") {
+    console.log("Yessir! Drew was born and raised in Wisconsin to a family of 7!");
+    alert("Yessir! Drew was born and raised in Wisconsin to a family of 7!");
+    qThree++;
+  }else if (wisconsin === "no") {
+    console.log("If you said no, then you'd be wrong! Drew was born and raised in Wisconsin to a family of 7!");
     alert("If you said no, then you'd be wrong! Drew was born and raised in Wisconsin to a family of 7!");
-} else if (wisconsin != "yes" && wisconsin != "no"){
-    console.log("I'm sorry, plz use yes or no. The answer is yes he did!" )
+  } else if (wisconsin !== "yes" && wisconsin !== "no"){
+    console.log("I'm sorry, plz use yes or no. The answer is yes he did!" );
     alert  ("I'm sorry, plz use yes or no. The answer is yes he did!");
+  }
+  console.log(qThree);
 }
-console.log(qThree)
 
 let qFour=0;
 let family = prompt ("Does Drew Stroede have 4 brothers?").toLowerCase();
