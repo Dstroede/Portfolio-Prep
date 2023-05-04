@@ -94,27 +94,29 @@ function din() {
   console.log (qFive);
 }
 
-let qSix=0;
-let guessNum = 6;
-let gotIt= false;
-let webRanker = prompt ("guess a number between 1 & 10 ");
-for (let i=0; i < 3; i++){
-   if (webRanker < 6){
-    webRanker= prompt ("little higher!");
-}   else if (webRanker > 6 ){
-    webRanker= prompt("little lower");
-}   else if (webRanker == guessNum){
-    alert("Whoaaa you must be psychic! You're right!")
-    qSix++
-    gotIt= true; 
-    break; 
-}
+function numSelect() {
+  let qSix=0;
+  let guessNum = 6;
+  let gotIt= false;
+  let webRanker = prompt ("guess a number between 1 & 10 ");
+  for (let i=0; i < 3; i++){
+    if (webRanker < 6){
+      webRanker= prompt ("little higher!");
+    } else if (webRanker > 6 ){
+      webRanker= prompt("little lower");
+    } else if (webRanker === guessNum){
+      alert("Whoaaa you must be psychic! You're right!");
+      qSix++;
+      gotIt= true; 
+      break; 
+    }
     if (!gotIt && i===2){
-    alert("Ran out of attempts! Sorry, it was 6!");
-    break;
+      alert("Ran out of attempts! Sorry, it was 6!");
+      break;
+    }
+  }
+  console.log (qSix);
 }
-}
-console.log (qSix)
 
 let qSeven=0;
 let team= "green bay";
@@ -142,6 +144,7 @@ cBall();
 wisco();
 bros();
 din();
+numSelect ();
 
 let score= [qOne+qTwo+qThree+qFour+qFive+qSix+qSeven]
 console.log(score)
