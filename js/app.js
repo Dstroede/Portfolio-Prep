@@ -76,21 +76,23 @@ function bros() {
   console.log (qFour);
 }
 
-let qFive=0;
-let food = prompt ("Is Drew Stroede's favorite food is Salmon?").toLowerCase();
-console.log(food)
-if (food == "yes") {
-    console.log("Yee Yee! Drew loves Salmon and Prime Rib! Expensive Taste!")
-    alert("Yee Yee! Drew loves Salmon and Prime Rib! Expensive Taste!")
-    qFive++
-}else if (food == "no") {
-    console.log("Wrong! Drew loves Salmon and Prime Rib! Expensive Taste!")
+function din() {
+  let qFive=0;
+  let food = prompt ("Is Drew Stroede's favorite food is Salmon?").toLowerCase();
+  console.log(food);
+  if (food === "yes") {
+    console.log("Yee Yee! Drew loves Salmon and Prime Rib! Expensive Taste!");
+    alert("Yee Yee! Drew loves Salmon and Prime Rib! Expensive Taste!");
+    qFive++;
+  }else if (food === "no") {
+    console.log("Wrong! Drew loves Salmon and Prime Rib! Expensive Taste!");
     alert("Wrong! Drew loves Salmon and Prime Rib! Expensive Taste!");
-} else if (food != "yes" && food != "no"){
-    console.log("I'm sorry, plz use yes or no. Salmon is his favorite!")
+  } else if (food !== "yes" && food !== "no"){
+    console.log("I'm sorry, plz use yes or no. Salmon is his favorite!");
     alert  ("I'm sorry, plz use yes or no. Salmon is his favorite!");
+  }
+  console.log (qFive);
 }
-console.log (qFive)
 
 let qSix=0;
 let guessNum = 6;
@@ -137,7 +139,9 @@ console.log(qSeven)
 
 lVegas();
 cBall();
+wisco();
 bros();
+din();
 
 let score= [qOne+qTwo+qThree+qFour+qFive+qSix+qSeven]
 console.log(score)
