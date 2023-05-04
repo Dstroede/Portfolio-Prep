@@ -1,22 +1,26 @@
 "use strict";
 
 let qOne=0;
-let userName = prompt ("What is your name?")
-alert ("Welcome, " + userName)
-let vegas = prompt ("Has Drew Stroede ever lived in Las Vegas? (yes or no)").toLowerCase();
-    console.log(vegas)
-if (vegas == "yes") {
-    console.log("Correct! Although he only lived there for a few months!")
+let userName = prompt ("What is your name?");
+alert ("Welcome, " + userName);
+console.log(userName);
+
+function lVegas() {
+  let vegas = prompt ("Has Drew Stroede ever lived in Las Vegas? (yes or no)").toLowerCase();
+  console.log(vegas);
+  if (vegas === "yes") {
+    console.log("Correct! Although he only lived there for a few months!");
     alert("Correct! Although he only lived there for a few months!");
-    qOne++
-}else if (vegas == "no") {
-    console.log("Incorrect! Drew lived in Vegas for a couple months earlier this year!")
+    qOne++;
+  }else if (vegas === "no") {
+    console.log("Incorrect! Drew lived in Vegas for a couple months earlier this year!");
     alert("Incorrect! Drew lived in Vegas for a couple months earlier this year!");
-} else if (vegas != "yes" && vegas != "no"){
-    console.log("I'm sorry I do not understand! Plz use yes or no. The answer is yes he did!")
+  } else if (vegas !== "yes" && vegas !== "no"){
+    console.log("I'm sorry I do not understand! Plz use yes or no. The answer is yes he did!");
     alert ("I'm sorry I do not understand! Plz use yes or no. The answer is yes he did!");
+  }
+  console.log (qOne);
 }
-console.log (qOne)
 
 let qTwo=0;
 let football = prompt ("Has Drew Stroede played college basketball?").toLowerCase();
@@ -124,6 +128,8 @@ for (let i=0; i< 5; i++){
     }
 }
 console.log(qSeven)
+
+lVegas();
 
 let score= [qOne+qTwo+qThree+qFour+qFive+qSix+qSeven]
 console.log(score)
