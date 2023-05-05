@@ -24,3 +24,10 @@ Accessibility score 100
 
 ## License
 MIT © Drew Stroede
+
+
+## Paired Programming
+
+- Driver: Justin Benjamin
+- Navigator: Drew Stroede
+We worked on this code together. For the win!
