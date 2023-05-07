@@ -14,7 +14,7 @@ Pending...
 
 ## Features
 Accessibility score 100
-![Accessibility Score](img/Accessibility%20score.png)
+![Accessibility Score](img/AccessibilityScore.png)
 
 ## How to use?
 
