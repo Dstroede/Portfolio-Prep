@@ -1,196 +1,196 @@
 'use strict';
 
-let qOne=0;
-let userName = prompt ('What is your name?');
-alert ('Welcome, ' + userName);
-// console.log(userName);
+// let qOne=0;
+// let userName = prompt ('What is your name?');
+// alert ('Welcome, ' + userName);
+// // console.log(userName);
 
-function lVegas() {
-  let vegas = prompt ('Has Drew Stroede ever lived in Las Vegas? (yes or no)').toLowerCase();
-  console.log(vegas);
-  if (vegas === 'yes') {
-    // console.log('Correct! Although he only lived there for a few months!');
-    alert('Correct! Although he only lived there for a few months!');
-    qOne++;
-  }else if (vegas === 'no') {
-    // console.log('Incorrect! Drew lived in Vegas for a couple months earlier this year!');
-    alert('Incorrect! Drew lived in Vegas for a couple months earlier this year!');
-  } else if (vegas !== 'yes' && vegas !== 'no'){
-    // console.log('I\'m sorry I do not understand! Plz use yes or no. The answer is yes he did!');
-    alert ('I\'m sorry I do not understand! Plz use yes or no. The answer is yes he did!');
-  }
-  console.log (qOne);
-}
+// function lVegas() {
+//   let vegas = prompt ('Has Drew Stroede ever lived in Las Vegas? (yes or no)').toLowerCase();
+//   console.log(vegas);
+//   if (vegas === 'yes') {
+//     // console.log('Correct! Although he only lived there for a few months!');
+//     alert('Correct! Although he only lived there for a few months!');
+//     qOne++;
+//   }else if (vegas === 'no') {
+//     // console.log('Incorrect! Drew lived in Vegas for a couple months earlier this year!');
+//     alert('Incorrect! Drew lived in Vegas for a couple months earlier this year!');
+//   } else if (vegas !== 'yes' && vegas !== 'no'){
+//     // console.log('I\'m sorry I do not understand! Plz use yes or no. The answer is yes he did!');
+//     alert ('I\'m sorry I do not understand! Plz use yes or no. The answer is yes he did!');
+//   }
+//   console.log (qOne);
+// }
 
-let qTwo=0;
-function cBall() {
+// let qTwo=0;
+// function cBall() {
 
-  let football = prompt ('Has Drew Stroede played college basketball?').toLowerCase();
-  console.log(football);
-  if (football === 'yes') {
-    // console.log ('Nah! Drew played college football as a defensive back!');
-    alert('Nah! Drew played college football as a defensive back!');
-  }else if (football === 'no') {
-    // console.log('You\'re right here but Drew did played college football as a defensive back!' );
-    alert('You\'re right here but Drew did played college football as a defensive back!');
-    qTwo++;
-  } else if (football !== 'yes' && football !== 'no'){
-    // console.log('I\'m sorry, plz use yes or no. Drew played colllege football instead!' );
-    alert ('I\'m sorry, plz use yes or no. Drew played colllege football instead!');
-  }
-  console.log (qTwo);
-}
+//   let football = prompt ('Has Drew Stroede played college basketball?').toLowerCase();
+//   console.log(football);
+//   if (football === 'yes') {
+//     // console.log ('Nah! Drew played college football as a defensive back!');
+//     alert('Nah! Drew played college football as a defensive back!');
+//   }else if (football === 'no') {
+//     // console.log('You\'re right here but Drew did played college football as a defensive back!' );
+//     alert('You\'re right here but Drew did played college football as a defensive back!');
+//     qTwo++;
+//   } else if (football !== 'yes' && football !== 'no'){
+//     // console.log('I\'m sorry, plz use yes or no. Drew played colllege football instead!' );
+//     alert ('I\'m sorry, plz use yes or no. Drew played colllege football instead!');
+//   }
+//   console.log (qTwo);
+// }
 
-let qThree=0;
-function wisco() {
+// let qThree=0;
+// function wisco() {
 
-  let wisconsin = prompt ('Has Drew Stroede ever lived in Wisconsin').toLowerCase();
-  console.log(wisconsin);
-  if (wisconsin === 'yes') {
-    // console.log('Yessir! Drew was born and raised in Wisconsin to a family of 7!');
-    alert('Yessir! Drew was born and raised in Wisconsin to a family of 7!');
-    qThree++;
-  }else if (wisconsin === 'no') {
-    // console.log('If you said no, then you\'d be wrong! Drew was born and raised in Wisconsin to a family of 7!');
-    alert('If you said no, then you\'d be wrong! Drew was born and raised in Wisconsin to a family of 7!');
-  } else if (wisconsin !== 'yes' && wisconsin !== 'no'){
-    // console.log('I\'m sorry, plz use yes or no. The answer is yes he did!' );
-    alert ('I\'m sorry, plz use yes or no. The answer is yes he did!');
-  }
-  console.log(qThree);
-}
+//   let wisconsin = prompt ('Has Drew Stroede ever lived in Wisconsin').toLowerCase();
+//   console.log(wisconsin);
+//   if (wisconsin === 'yes') {
+//     // console.log('Yessir! Drew was born and raised in Wisconsin to a family of 7!');
+//     alert('Yessir! Drew was born and raised in Wisconsin to a family of 7!');
+//     qThree++;
+//   }else if (wisconsin === 'no') {
+//     // console.log('If you said no, then you\'d be wrong! Drew was born and raised in Wisconsin to a family of 7!');
+//     alert('If you said no, then you\'d be wrong! Drew was born and raised in Wisconsin to a family of 7!');
+//   } else if (wisconsin !== 'yes' && wisconsin !== 'no'){
+//     // console.log('I\'m sorry, plz use yes or no. The answer is yes he did!' );
+//     alert ('I\'m sorry, plz use yes or no. The answer is yes he did!');
+//   }
+//   console.log(qThree);
+// }
 
-let qFour=0;
-function bros() {
+// let qFour=0;
+// function bros() {
 
-  let family = prompt ('Does Drew Stroede have 4 brothers?').toLowerCase();
-  console.log(family);
-  if (family === 'yes') {
-    // console.log('Not quite! Drew has 3 brothers and 1 sister');
-    alert('Not quite! Drew has 3 brothers and 1 sister');
-  }else if (family === 'no') {
-    // console.log('Spot on! Drew has 3 brothers and 1 sister');
-    alert('Spot on! Drew has 3 brothers and 1 sister');
-    qFour++;
-  } else if (family !== 'yes' && family !== 'no'){
-    // console.log('I\'m sorry, plz use yes or no. He has 3 brothers and 1 sister');
-    alert ('I\'m sorry, plz use yes or no. He has 3 brothers and 1 sister');
-  }
-  console.log (qFour);
-}
+//   let family = prompt ('Does Drew Stroede have 4 brothers?').toLowerCase();
+//   console.log(family);
+//   if (family === 'yes') {
+//     // console.log('Not quite! Drew has 3 brothers and 1 sister');
+//     alert('Not quite! Drew has 3 brothers and 1 sister');
+//   }else if (family === 'no') {
+//     // console.log('Spot on! Drew has 3 brothers and 1 sister');
+//     alert('Spot on! Drew has 3 brothers and 1 sister');
+//     qFour++;
+//   } else if (family !== 'yes' && family !== 'no'){
+//     // console.log('I\'m sorry, plz use yes or no. He has 3 brothers and 1 sister');
+//     alert ('I\'m sorry, plz use yes or no. He has 3 brothers and 1 sister');
+//   }
+//   console.log (qFour);
+// }
 
-let qFive=0;
-function din() {
+// let qFive=0;
+// function din() {
 
-  let food = prompt ('Is Drew Stroede\'s favorite food is Salmon?').toLowerCase();
-  console.log(food);
-  if (food === 'yes') {
-    // console.log('Yee Yee! Drew loves Salmon and Prime Rib! Expensive Taste!');
-    alert('Yee Yee! Drew loves Salmon and Prime Rib! Expensive Taste!');
-    qFive++;
-  }else if (food === 'no') {
-    // console.log('Wrong! Drew loves Salmon and Prime Rib! Expensive Taste!');
-    alert('Wrong! Drew loves Salmon and Prime Rib! Expensive Taste!');
-  } else if (food !== 'yes' && food !== 'no'){
-    // console.log('I\'m sorry, plz use yes or no. Salmon is his favorite!');
-    alert ('I\'m sorry, plz use yes or no. Salmon is his favorite!');
-  }
-  console.log (qFive);
-}
+//   let food = prompt ('Is Drew Stroede\'s favorite food is Salmon?').toLowerCase();
+//   console.log(food);
+//   if (food === 'yes') {
+//     // console.log('Yee Yee! Drew loves Salmon and Prime Rib! Expensive Taste!');
+//     alert('Yee Yee! Drew loves Salmon and Prime Rib! Expensive Taste!');
+//     qFive++;
+//   }else if (food === 'no') {
+//     // console.log('Wrong! Drew loves Salmon and Prime Rib! Expensive Taste!');
+//     alert('Wrong! Drew loves Salmon and Prime Rib! Expensive Taste!');
+//   } else if (food !== 'yes' && food !== 'no'){
+//     // console.log('I\'m sorry, plz use yes or no. Salmon is his favorite!');
+//     alert ('I\'m sorry, plz use yes or no. Salmon is his favorite!');
+//   }
+//   console.log (qFive);
+// }
 
-let guessNum = 6;
+// let guessNum = 6;
 
-let qSix=0;
-function numSelect() {
-  let gotIt= false;
-  let webRanker = prompt ('guess a number between 1 & 10 ');
-  for (let i=0; i < 3; i++){
-    if (webRanker < 6){
-      webRanker= prompt ('little higher!');
-    } else if (webRanker > 6 ){
-      webRanker= prompt('little lower');
-    } else if (webRanker == guessNum){
-      alert('Whoaaa you must be psychic! You\'re right!');
-      qSix++;
-      gotIt= true; 
-      break; 
-    }
-    if (!gotIt && i===2){
-      alert('Ran out of attempts! Sorry, it was 6!');
-      break;
-    }
-  }
-  console.log (qSix);
-}
-
-let qSeven=0;
-
-// Old Loop before paired programming
-//   let team= ['green bay', 'las vegas', 'houston']
-//   let correct= false;
-//   let favTeam= prompt('Guess what city my favorite NFL team resides?').toLowerCase();
-//   for (let i=0; i< 5; i++){
-//     if(favTeam !== team) {
-//       favTeam= prompt ('Nope! Try again!');
+// let qSix=0;
+// function numSelect() {
+//   let gotIt= false;
+//   let webRanker = prompt ('guess a number between 1 & 10 ');
+//   for (let i=0; i < 3; i++){
+//     if (webRanker < 6){
+//       webRanker= prompt ('little higher!');
+//     } else if (webRanker > 6 ){
+//       webRanker= prompt('little lower');
+//     } else if (webRanker == guessNum){
+//       alert('Whoaaa you must be psychic! You\'re right!');
+//       qSix++;
+//       gotIt= true; 
+//       break; 
 //     }
-//     else if (favTeam === team){
-//       alert ('Yup!');
-//       qSeven++;
-//       correct= true;
-//       break;
-//     }
-//     if (!correct && i===4){
-//       alert('Ran out of attempts! Sorry, Go Pack Go!');
+//     if (!gotIt && i===2){
+//       alert('Ran out of attempts! Sorry, it was 6!');
 //       break;
 //     }
 //   }
-//   console.log(qSeven);
+//   console.log (qSix);
 // }
 
-function city() {
-  let correctTeamAnswer = ['green bay', 'las vegas', 'houston'];
-  let teamAttemptsRemaining = 6;
-  let guessedTeamCorrectly = false;
+// let qSeven=0;
 
-  while (teamAttemptsRemaining > 0 && !guessedTeamCorrectly) {
-    let guessTeam = prompt('Guess what city my favorite NFL team resides?');
-    console.log(guessTeam);
-    let isCorrect = false;
-    for (let i = 0; i < correctTeamAnswer.length; i++) {
-      if (guessTeam.toLowerCase() === correctTeamAnswer[i]) {
-        isCorrect = true;
-        break;
-      }
-    }
+// // Old Loop before paired programming
+// //   let team= ['green bay', 'las vegas', 'houston']
+// //   let correct= false;
+// //   let favTeam= prompt('Guess what city my favorite NFL team resides?').toLowerCase();
+// //   for (let i=0; i< 5; i++){
+// //     if(favTeam !== team) {
+// //       favTeam= prompt ('Nope! Try again!');
+// //     }
+// //     else if (favTeam === team){
+// //       alert ('Yup!');
+// //       qSeven++;
+// //       correct= true;
+// //       break;
+// //     }
+// //     if (!correct && i===4){
+// //       alert('Ran out of attempts! Sorry, Go Pack Go!');
+// //       break;
+// //     }
+// //   }
+// //   console.log(qSeven);
+// // }
 
-    if (isCorrect) {
-    // the guess was correct
-      guessedTeamCorrectly = true;
-      alert('Yessir, go team!');
-      score++;
-      console.log(score);
-    } else {
-    // the guess was not right
-      teamAttemptsRemaining--;
-      alert('Nope! You have ' + teamAttemptsRemaining + ' attempts remaining.');
-    }
-  }
+// function city() {
+//   let correctTeamAnswer = ['green bay', 'las vegas', 'houston'];
+//   let teamAttemptsRemaining = 6;
+//   let guessedTeamCorrectly = false;
 
-  if (!guessedTeamCorrectly) {
-    alert('Nope. The correct answer was ' + correctTeamAnswer + '.');
-    score--;
-    console.log(score);
-  }
-}
+//   while (teamAttemptsRemaining > 0 && !guessedTeamCorrectly) {
+//     let guessTeam = prompt('Guess what city my favorite NFL team resides?');
+//     console.log(guessTeam);
+//     let isCorrect = false;
+//     for (let i = 0; i < correctTeamAnswer.length; i++) {
+//       if (guessTeam.toLowerCase() === correctTeamAnswer[i]) {
+//         isCorrect = true;
+//         break;
+//       }
+//     }
 
-lVegas();
-cBall();
-wisco();
-bros();
-din();
-numSelect();
-city();
+//     if (isCorrect) {
+//     // the guess was correct
+//       guessedTeamCorrectly = true;
+//       alert('Yessir, go team!');
+//       score++;
+//       console.log(score);
+//     } else {
+//     // the guess was not right
+//       teamAttemptsRemaining--;
+//       alert('Nope! You have ' + teamAttemptsRemaining + ' attempts remaining.');
+//     }
+//   }
 
-let score= [qOne + qTwo + qThree + qFour + qFive + qSix + qSeven];
-console.log(score);
-alert ('Thanks for playing '+ userName+ ' you got '+ score +' out of 7 correct! How about we learn a little more about Drew!');
+//   if (!guessedTeamCorrectly) {
+//     alert('Nope. The correct answer was ' + correctTeamAnswer + '.');
+//     score--;
+//     console.log(score);
+//   }
+// }
+
+// lVegas();
+// cBall();
+// wisco();
+// bros();
+// din();
+// numSelect();
+// city();
+
+// let score= [qOne + qTwo + qThree + qFour + qFive + qSix + qSeven];
+// console.log(score);
+// alert ('Thanks for playing '+ userName+ ' you got '+ score +' out of 7 correct! How about we learn a little more about Drew!');
