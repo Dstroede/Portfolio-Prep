@@ -183,14 +183,14 @@ alert ('Welcome, ' + userName);
 //   }
 // }
 
-// lVegas();
-// cBall();
-// wisco();
-// bros();
-// din();
-// numSelect();
-// city();
+ lVegas();
+ cBall();
+ wisco();
+ bros();
+ din();
+ numSelect();
+ city();
 
-// let score= [qOne + qTwo + qThree + qFour + qFive + qSix + qSeven];
-// console.log(score);
-// alert ('Thanks for playing '+ userName+ ' you got '+ score +' out of 7 correct! How about we learn a little more about Drew!');
+ let score= [qOne + qTwo + qThree + qFour + qFive + qSix + qSeven];
+ console.log(score);
+ alert ('Thanks for playing '+ userName+ ' you got '+ score +' out of 7 correct! How about we learn a little more about Drew!');
